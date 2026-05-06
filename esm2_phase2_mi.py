@@ -48,8 +48,8 @@ Outputs (in --output-dir):
 
 Usage:
   python esm2_phase2_mi.py \
-      --phase1-npz /ubiquitin/ubiquitin_oscillatory.npz \
-      --substrate /esm2_substrate_facebook_esm2_t33_650M_UR50D/substrate.npz \
+      --phase1-npz ubiquitin/ubiquitin_oscillatory.npz \
+      --substrate esm2_substrate_facebook_esm2_t33_650M_UR50D/substrate.npz \
       --load-properties-from-pos-jsons ubiquitin_old \
       --output-dir esm2_phase2_ubiquitin
 
